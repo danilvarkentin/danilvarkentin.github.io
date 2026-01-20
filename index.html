@@ -36,11 +36,6 @@ body{font-family: Roboto;}blockquote{border-color: #3dd0c3;}div[submit-success] 
   
   
 </head>
-<div class="warning warning--active">
-	<div class="warning__text">Сайт обрабатывает cookies.</div>
-	<button class="warning__apply" type="button">Понятно</button>
-	<a class="warning__read" href="http://danilvarkentin.ru/page2.html" target="_blank">Политика конфиденциальности</a>
-</div>
 <body><div id="top-page"></div>                                         <amp-animation id="showScrollToTopAnim" layout="nodisplay">                                             <script type="application/json">                                             {                                                 "duration": "200ms",                                                 "fill": "both",                                                 "iterations": "1",                                                 "direction": "alternate",                                                 "animations": [                                                     {                                                         "selector": "#scrollToTopButton",                                                         "keyframes": [                                                             { "opacity": "0.4", "visibility": "visible" }                                                         ]                                                     }                                                 ]                                             }                                             </script>                                         </amp-animation>                                         <amp-animation id="hideScrollToTopAnim" layout="nodisplay">                                             <script type="application/json">                                             {                                                 "duration": "200ms",                                                 "fill": "both",                                                 "iterations": "1",                                                 "direction": "alternate",                                                 "animations": [                                                     {                                                         "selector": "#scrollToTopButton",                                                         "keyframes": [                                                             { "opacity": "0", "visibility": "hidden" }                                                         ]                                                     }                                                 ]                                             }                                             </script>                                         </amp-animation>                                         <div id="scrollToTopMarker">                                             <amp-position-observer on="enter:hideScrollToTopAnim.start; exit:showScrollToTopAnim.start" layout="nodisplay">                                             </amp-position-observer>                                         </div><amp-sidebar id="sidebar" class="cid-rLcxXf2ftF" layout="nodisplay" side="right">
         <div class="builder-sidebar" id="builder-sidebar">
             <button on="tap:sidebar.close" class="close-sidebar">
@@ -581,3 +576,8 @@ body{font-family: Roboto;}blockquote{border-color: #3dd0c3;}div[submit-success] 
  
   <button id="scrollToTopButton" on="tap:top-page.scrollTo(duration=200)">                                         <a class="scroll-to-top-arrow"></a>                                     </button></body>
 </html>
+<div class="warning warning--active">
+	<div class="warning__text">Сайт обрабатывает cookies.</div>
+	<button class="warning__apply" type="button">Понятно</button>
+	<a class="warning__read" href="http://danilvarkentin.ru/page2.html" target="_blank">Политика конфиденциальности</a>
+</div>
